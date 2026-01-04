@@ -1,0 +1,60 @@
+body {
+    background-color: azure;
+    margin: 100px auto;
+    max-width: 600px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(73, 75, 75);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.subtitle {
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+form {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.topic-input {
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid rgb(139, 136, 136);
+    box-shadow: 0px 5px 3px rgb(139, 136, 136, 0.4);
+    margin-bottom: 20px;
+}
+
+.submit-btn {
+    padding: 5px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(73, 75, 75);
+    color: azure;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    color: rgb(73, 75, 75)
+}

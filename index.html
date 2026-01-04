@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
     <title>AI fact generator</title>
 </head>
 <body>
     <header>
         <h1>Learn something about everything</h1>
-        <p>Interesting, AI generated facts about a topic of your choice</p>
+        <p class="subtitle">Interesting, AI generated facts</p>
     </header>
     <main>
         <form>
             <label for="topic">Enter a topic of your choice</label>
-            <input type="text" required autocomplete="off" autofocus id="topic"/>
-            <input type="submit" value="Generate fact" id="submit-btn"/>
+            <input type="text" required autocomplete="off" id="topic" class="topic-input"/>
+            <input type="submit" value="Generate fact" id="submit-btn" class="submit-btn"/>
         </form>
         <p id="fact"></p>
     </main>
@@ -24,7 +25,7 @@
             <a href="https://www.shecodes.io/graduates/177959-katalin-balogh" target="_blank">Katalin Balogh</a>, 
             <a href="" target="_blank">opensourced on Github</a>
             and 
-            <a href="" target="_blank">hosted on Netlify</a>.
+            <a href="" target="_blank">hosted on Netlify</a>
         </p>
     </footer>
 </body>
