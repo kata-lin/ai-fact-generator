@@ -1,9 +1,9 @@
 body {
-    background-color: azure;
+    background-color: peachpuff;
     margin: 100px auto;
     max-width: 600px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(73, 75, 75);
+    color: rgb(52, 53, 53);
 }
 
 header {
@@ -40,6 +40,7 @@ input {
     border: 1px solid rgb(139, 136, 136);
     box-shadow: 0px 5px 3px rgb(139, 136, 136, 0.4);
     margin-bottom: 20px;
+    padding: 10px;
 }
 
 .submit-btn {
@@ -47,12 +48,32 @@ input {
     border-radius: 50px;
     border: none;
     background-color: rgb(73, 75, 75);
-    color: azure;
+    color:peachpuff;
+}
+
+.display-fact {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.loader {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bolder;
+  animation: blinking 1s linear infinite alternate;
+}
+
+@keyframes blinking {
+    to{opacity: 0}
 }
 
 footer {
     text-align: center;
     padding: 20px;
+    font-size: 14px;
 }
 
 a {
